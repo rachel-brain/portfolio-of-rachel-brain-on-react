@@ -1,5 +1,15 @@
 # Getting Started with Create React App
 
+
+
+
+My portfolio built with REACT showcasing my recent Coding work.
+
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
