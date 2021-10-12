@@ -1,9 +1,10 @@
 import React from 'react';
+import './style.css';
 
 export default function MyWork() {
   return (
     <div>
-      <h1>My Work Page</h1>
+      <h1>Some examples of my Work</h1>
       <h2>card 1</h2>
       <p>
         Example of my work 1: Suspendisse aliquet orci porta quam semper

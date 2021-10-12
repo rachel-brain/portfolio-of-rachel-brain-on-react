@@ -1,13 +1,37 @@
+/* Color palette sourced from https://www.color-hex.com/color-palette/114926 Soft Primaries Color Palette palette */
+:root {
+  --sunset: #b4343f;
+  --mustard: #e0c02b;
+  --mid-blue: #466da5;
+  --pale-grey: #91a8ca;
+  --moss-green: #4e6d4a;
+  --dark-grey: #2d3235;
+  --black: #000;
+  --white: #fff;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Dosis', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Dosis', sans-serif;
+}
+
+div {
+  background-color: var(pale-grey);
+}
+
+h1 {
+  font-size: 60px;
+  color: var(--mid-blue);
+  padding-left: 25px;
+}
+
+p {
+  font-size: 25px;
+  padding-left: 25px;
 }

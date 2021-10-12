@@ -1,9 +1,15 @@
 # Getting Started with Create React App
-
-
-
-
 My portfolio built with REACT showcasing my recent Coding work.
+
+
+
+
+## Usage
+
+### `npm install axios`
+### `npm start`
+### `npm run build`
+
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
