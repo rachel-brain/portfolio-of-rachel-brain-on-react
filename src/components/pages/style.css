@@ -20,9 +20,12 @@ body {
 div {
     margin: 0;
     font-family: 'Dosis', sans-serif;
-    background-color: var(--pale-grey);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.contrast {
+    background-color: var(--pale-grey);
 }
 
 code {
@@ -39,15 +42,17 @@ h1 {
 
 h2,
 .card-title {
-    font-size: 45px;
+    font-size: 40px;
+    line-height: 1.5;
     color: var(--sunset);
     padding-left: 25px;
 }
 
 h3 {
-    font-size: 20px;
-    color: var(--mid-blue);
-    background-color: var(--white);
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--white);
+    background-color: var(--mid-blue);
     padding-left: 25px;
 }
 
@@ -70,15 +75,12 @@ p {
 }
 
 .child {
-    /* margin: 0 auto; */
-    /* justify-content: center; */
     padding: 10px;
 }
 
-/* Add footer to html */
 .footer {
-    position: absolute;
-    bottom: 0;
+    background-color: var(--white);
+    line-height: 2.0;
 }
 
 .contact {
@@ -90,4 +92,23 @@ p {
 .fa {
     position: relative;
     padding-left: 5px;
+}
+
+.card-a {
+    background-color: var(--white);
+    border: 5px solid var(--moss-green);
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.card-b {
+    background-color: var(--pale-grey);
+    border: 5px solid var(--moss-green);
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.regex-img {
+    margin-left: 10px;
+    border-radius: 10px;
 }

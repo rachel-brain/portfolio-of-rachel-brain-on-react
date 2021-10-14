@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <div>
       <h1>Home</h1>
+      <div className="contrast">
       <img src={avatar} class ="child" alt="avatar of rachel brain"></img>
       <ul>
         <li>Location: Melbourne, Australia</li>
@@ -13,6 +14,7 @@ export default function Home() {
         <li>Our #2 claim to fame: Melbournians are known as "foodies" & we LOVE our coffee!</li>   
       </ul>
       <br></br>
+      </div>
     </div>
   );
 }

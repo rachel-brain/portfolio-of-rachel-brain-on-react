@@ -5,6 +5,7 @@ export default function About() {
   return (
     <div>
       <h1>About Me</h1>
+      <div className="contrast">
       <ul>
         <li>New to Web-development & Web-design, I now have the full complement of Sales & Marketing skills!</li>
         <li>A successful Business manager, I aim to achieve win : win solutions for both employer & customer by building lasting partnerships based on fantastic service & quality locally-made product.</li>
@@ -15,6 +16,7 @@ export default function About() {
         <li>A Community Engagement aspect in my role is vital as “giving back” is important to me.</li>
       </ul>
       <br></br>
+      </div>
     </div>
   );
 }

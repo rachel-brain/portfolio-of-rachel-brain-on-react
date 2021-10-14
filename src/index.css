@@ -17,21 +17,98 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+div {
+  margin: 0;
+  font-family: 'Dosis', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.contrast {
+  background-color: var(--pale-grey);
+}
+
 code {
   font-family: 'Dosis', sans-serif;
 }
 
-div {
-  background-color: var(pale-grey);
-}
-
 h1 {
   font-size: 60px;
+  line-height: 1.2;
+  color: var(--mid-blue);
+  background-color: var(--white);
+  padding-left: 25px;
+}
+
+h2,
+.card-title {
+  font-size: 40px;
+  line-height: 1.5;
+  color: var(--sunset);
+  padding-left: 25px;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--white);
+  background-color: var(--mid-blue);
+  padding-left: 25px;
+}
+
+li {
+  font-size: 20px;
+  color: var(--white);
+  padding-left: 10px;
+}
+
+h4 {
+  font-size: 10px;
   color: var(--mid-blue);
   padding-left: 25px;
 }
 
 p {
-  font-size: 25px;
+  font-size: 15px;
+  color: var(--mid-blue);
   padding-left: 25px;
+}
+
+.child {
+  padding: 10px;
+}
+
+.footer {
+  background-color: var(--white);
+  line-height: 2.0;
+}
+
+.contact {
+  font-size: 20px;
+  color: var(--white);
+  padding-left: 2px;
+}
+
+.fa {
+  position: relative;
+  padding-left: 5px;
+}
+
+.card-a {
+  background-color: var(--white);
+  border: 5px solid var(--moss-green);
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.card-b {
+  background-color: var(--pale-grey);
+  border: 5px solid var(--moss-green);
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.regex-img {
+  margin-left: 10px;
+  border-radius: 10px;
 }
