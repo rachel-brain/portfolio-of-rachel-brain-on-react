@@ -13,6 +13,13 @@
 body {
     margin: 0;
     font-family: 'Dosis', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+div {
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
     background-color: var(--pale-grey);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -24,20 +31,31 @@ code {
 
 h1 {
     font-size: 60px;
+    line-height: 1.2;
     color: var(--mid-blue);
+    background-color: var(--white);
     padding-left: 25px;
 }
 
-h2 {
-    font-size: 60px;
-    color: var(--mustard);
+h2,
+.card-title {
+    font-size: 45px;
+    color: var(--sunset);
+    padding-left: 25px;
+}
+
+h3 {
+    font-size: 20px;
+    color: var(--mid-blue);
+    background-color: var(--white);
     padding-left: 25px;
 }
 
 li {
-    font-size: 15px;
-    color: var(--moss-green);
-    padding-left: 10px;}
+    font-size: 20px;
+    color: var(--white);
+    padding-left: 10px;
+}
 
 h4 {
     font-size: 10px;
@@ -49,4 +67,27 @@ p {
     font-size: 15px;
     color: var(--mid-blue);
     padding-left: 25px;
+}
+
+.child {
+    /* margin: 0 auto; */
+    /* justify-content: center; */
+    padding: 10px;
+}
+
+/* Add footer to html */
+.footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.contact {
+    font-size: 20px;
+    color: var(--white);
+    padding-left: 2px;
+}
+
+.fa {
+    position: relative;
+    padding-left: 5px;
 }

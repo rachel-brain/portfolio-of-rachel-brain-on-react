@@ -14,6 +14,7 @@ export default function About() {
         <li>My passion is making everyday products more sustainable for the planet & healthier for the consumer.</li>
         <li>A Community Engagement aspect in my role is vital as “giving back” is important to me.</li>
       </ul>
+      <br></br>
     </div>
   );
 }
