@@ -11,8 +11,11 @@ export default function Blog() {
       <h2>Title: Hex is a Regex!</h2>
       <img src={regex} className="regex-img" alt="a simple regex"/>
       <p><a href="https://gist.github.com/rachel-brain/1b6a313075611f6a0b1c17b99609ee92"> gist.github.com/rachel-brain</a></p>
-      <br></br>
+      <br />
       </div>
+      <footer className="footer">
+        <h4>More exciting work coming soon ...</h4>
+      </footer>
     </div>
   );
 }

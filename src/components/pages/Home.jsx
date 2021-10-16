@@ -10,11 +10,14 @@ export default function Home() {
       <img src={avatar} class ="child" alt="avatar of rachel brain"></img>
       <ul>
         <li>Location: Melbourne, Australia</li>
-        <li>Our #1 claim to fame: Melbourne is the most-locked-down city in the world.</li>     
-        <li>Our #2 claim to fame: Melbournians are known as "foodies" & we LOVE our coffee!</li>   
+        <li>#1 claim to fame: Melbourne is the most-locked-down city in the world.</li>     
+        <li>#2 claim to fame: Melbournians are known as "foodies" & we LOVE our coffee!</li>   
       </ul>
-      <br></br>
+      <br />
       </div>
+      <footer className="footer">
+        <h4>More exciting work coming soon ...</h4>
+      </footer>
     </div>
   );
 }
