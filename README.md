@@ -1,86 +1,58 @@
-# Getting Started with Create React App
-My portfolio built with REACT showcasing my recent Coding work.
-
-
-
-
-## Usage
-
-### `npm install axios`
-### `npm start`
-### `npm run build`
-
-
+# Portfolio of Rachel Brain on REACT
+My portfolio built with REACT and BOOTSTRAP showcasing my recent Coding work.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
+## User Story
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```
+AS A upcoming web developer
+I WANT to showcase my portfolio of deployed work samples using REACT
+SO THAT I can present the best examples of my work so a potential employer can assess whether I am a good candidate for a position they have available
+```
 
-## Available Scripts
+## Description
+My motivation for undertaking this project was to update my portfolio with recent web development work using REACT.  It is to use as an adjunct to my resume, giving me the ability to present the best examples of my coding work.
 
-In the project directory, you can run:
+## Installation
+Open the (index.html) page in your prefered browser to see the finished webpage which is responsive so can be viewed on a number of different screen sizes.  Or, open the URL of the deployed application at: https://rachel-brain.github.io/rachel-brain-portfolio/ 
 
-### `npm start`
+## Usage
+Click on the images to be directed to examples of my deployed work & on the github links to be transferred to my repositories.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Projects featured
+### Title: Arty Pants group project
+* Alternative title: creating-art
+* Team members: Afsha Amber, Rachel Brain, Jesse De Jong, Chandler Liang
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Title: Wizard Wipeout! group project
+* Alternative title: super-duper-bassoon
+* Team members: Mustafa Abdelrahman, Rachel Brain, Suva Pokharel & David Szamek
 
-### `npm test`
+### Title: Weather Dashboard
+* Alternative title: city-weather-dashboard
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Title: Gotta Keep 'em Generated
+* Alternative title: generate-passwords
 
-### `npm run build`
+### Title: Workday Scheduler
+* Alternative title: handy-workday-scheduler
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Title: Note-Taker App
+* Alternative title: handy-note-taker
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Screenshot
+![The home page of Rachel Brain's portfolio is shown.](./src/components/images/screenshot-of-home-page-2021.10.JPG).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## URLs
+* The URL of the deployed application:  
+* The URL of the GitHub repository:     https://github.com/rachel-brain/portfolio-of-rachel-brain-on-react
 
-### `npm run eject`
+* Links to all URLs for the featured projects' deployed websites and GitHub repositories are included in the portfolio.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact Me
+* Mobile: +61 432 297 755
+* Email: rachel.brain@internode.on.net
+* LinkedIn: https://www.linkedin.com/in/rachel-brain-89570930
+* GitHub: https://github.com/rachel-brain
