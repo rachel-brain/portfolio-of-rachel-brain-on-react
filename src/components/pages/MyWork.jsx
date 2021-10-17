@@ -1,13 +1,13 @@
 import React from 'react';
+import Stack from 'react-bootstrap/Stack';
 import Card from 'react-bootstrap/Card';
-import './style.css';
 
-import arty from '../images/arty-pants-project-2021.07.JPG'
-import gotta from '../images/gotta-keep-em-generated-2021.06.JPG'
-import notetaker from '../images/note-taker-app-2021.08.JPG'
-import dashboard from '../images/weather-dashboard-2021.07.JPG'
-import wipeout from '../images/wizard-wipeout-project-2021.09.JPG'
-import scheduler from '../images/workday-scheduler-2021.06.JPG'
+import arty from '../images/arty-pants-project-2021.07.JPG';
+import gotta from '../images/gotta-keep-em-generated-2021.06.JPG';
+import notetaker from '../images/note-taker-app-2021.08.JPG';
+import dashboard from '../images/weather-dashboard-2021.07.JPG';
+import wipeout from '../images/wizard-wipeout-project-2021.09.JPG';
+import scheduler from '../images/workday-scheduler-2021.06.JPG';
 
 export default function MyWork() {
   return (
@@ -15,6 +15,8 @@ export default function MyWork() {
       <h1>Some examples of my Work</h1>
       <h3>Click on the links to be transferred to the repos and/or corresponding websites</h3>
 
+      <Stack direction="horizontal" gap={3}>
+      <div className="bg-light border"></div>
       <Card style={{maxWidth: "18rem" }} border="info" >
         <Card.Img variant="top" src={arty} className="card-img" alt="screenshot of arty-pants website" />
         <Card.Body>
@@ -32,6 +34,7 @@ export default function MyWork() {
 
       <br />
 
+      <div className="bg-light border"></div>
       <Card style={{maxWidth: "18rem" }} border="info" >
         <Card.Img variant="top" src={wipeout} className="card-img" alt="screenshot of wizard wipeout game login page" />
         <Card.Body>
@@ -49,6 +52,7 @@ export default function MyWork() {
 
       <br />
 
+      <div className="bg-light border"></div>
       <Card style={{maxWidth: "18rem" }} border="info" >
         <Card.Img variant="top" src={dashboard} className="card-img" alt="screenshot of weather dashboard" />
         <Card.Body>
@@ -61,9 +65,12 @@ export default function MyWork() {
           <Card.Link href="https://rachel-brain.github.io/city-weather-dashboard/" target="_blank" rel="noreferrer">Click here for deployed website</Card.Link>
         </Card.Body>
       </Card>
+      </Stack>
 
       <br />
 
+      <Stack direction="horizontal" gap={3}>
+      <div className="bg-light border"></div>
       <Card style={{maxWidth: "18rem" }} border="info" >
         <Card.Img variant="top" src={gotta} className="card-img" alt="screenshot of simple password generator" />
         <Card.Body>
@@ -79,6 +86,7 @@ export default function MyWork() {
 
       <br />
 
+      <div className="bg-light border"></div>
       <Card style={{maxWidth: "18rem" }} border="info" >
         <Card.Img variant="top" src={scheduler} className="card-img" alt="screenshot of hourly workday scheduler with color-coding" />
         <Card.Body>
@@ -94,6 +102,7 @@ export default function MyWork() {
 
       <br />
 
+      <div className="bg-light border"></div>
       <Card style={{maxWidth: "18rem" }} border="info" >
         <Card.Img variant="top" src={notetaker} className="card-img" alt="screenshot of note taker app" />
         <Card.Body>
@@ -106,6 +115,7 @@ export default function MyWork() {
           <Card.Link href="https://evening-lowlands-85052.herokuapp.com/" target="_blank" rel="noreferrer">Click here for deployed website</Card.Link>
         </Card.Body>
       </Card>
+      </Stack>
 
       <br />
 

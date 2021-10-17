@@ -1,11 +1,11 @@
 import React from 'react';
-import './style.css';
 
 export default function About() {
   return (
     <div>
       <h1>About Me</h1>
       <div className="contrast">
+      <br />
       <ul>
         <li>New to Web-development and Web-design, I now have the full complement of Sales and Marketing skills!</li>
         <li>A successful Business manager, I aim to achieve win : win solutions for both employer and customer by building lasting partnerships based on fantastic service and quality locally-made product.</li>

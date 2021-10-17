@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import MyWork from './pages/MyWork';
 import Blog from './pages/Blog';
+import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 
 export default function PortfolioContainer() {
@@ -22,6 +23,9 @@ export default function PortfolioContainer() {
     }
     if (currentPage === 'Blog') {
       return <Blog />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
     }
     return <Contact />;
   };

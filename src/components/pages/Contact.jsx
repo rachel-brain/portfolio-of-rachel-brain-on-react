@@ -1,65 +1,39 @@
-// import React from 'react';
-import React, { useState } from 'react';
-import './style.css';
+import React from 'react';
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 
-function Contact() {
-  // Here we set two state variables for firstName and lastName using `useState`
-  const [firstName, setFirstName] = useState('');
-  const [lastName, setLastName] = useState('');
-  const [message, setMessage] = useState('');
-
-  const handleInputChange = (e) => {
-    // Getting the value and name of the input which triggered the change
-    const { name, value } = e.target;
-
-    // Ternary statement that will call either setFirstName or setLastName based on what field the user is typing in
-    return name === 'firstName' ? setFirstName(value) : setLastName(value);
-  };
-
-  const handleFormSubmit = (e) => {
-    // Preventing the default behavior of the form submit (which is to refresh the page)
-    e.preventDefault();
-
-    // Alert the user their first and last name, clear the inputs
-    alert(`Hello ${firstName} ${lastName}`);
-    setFirstName('');
-    setLastName('');
-    setMessage('');
-  };
-
+  export default function Contact() {
   return (
     <div>
       <h1>Contact Me</h1>
+      <Form>
 
-      <form className="form">
-        <input
-          value={firstName}
-          name="firstName"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="First Name"
-        />
-        <input
-          value={lastName}
-          name="lastName"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="Last Name"
-        />
-        <input
-          value={message}
-          name="message"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="Message ..."
-        />
-        <button type="button" onClick={handleFormSubmit}>
-          Submit
-        </button>
-      </form>
+      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+      <Form.Label>Enter your name</Form.Label>
+      <Form.Control as="textarea" rows={1} />
+      </Form.Group>
+
+      <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+      <Form.Label>Enter your Email address</Form.Label>
+      <Form.Control type="email" placeholder="name@example.com" />
+      </Form.Group>
+
+      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea2">
+      <Form.Label>Enter your message</Form.Label>
+      <Form.Control as="textarea" rows={3} />
+      </Form.Group>
+
+      </Form>
+
+      <>
+        <Button variant="info">Submit</Button>{' '}
+      </>
+      <br />
+      <br />
       <br />
 
       <div className="contrast">
+      <br />
       <ul>
         <li className="contact" style={{listStyleType: "none"}}>
           <i class="fa fa-mobile" aria-hidden="true"/> Mobile: 
@@ -76,11 +50,11 @@ function Contact() {
       </ul>
       <br />
       </div>
+
+
       <footer className="footer">
         <h4>More exciting work coming soon ...</h4>
       </footer>
     </div>
   );
 }
-
-export default Contact;

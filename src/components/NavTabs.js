@@ -47,11 +47,21 @@ function NavTabs({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <a
           href="#contact"
-          // Ternary operator checking if the Contact page is chosen on click of nav-link
           onClick={() => handlePageChange('Contact')}
+          // Ternary operator checking if the Contact page is chosen on click of nav-link
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
           Contact
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#resume"
+          onClick={() => handlePageChange('Resume')}
+          // Ternary operator checking if the Resume page is chosen on click of nav-link
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+        >
+          My Resume
         </a>
       </li>
     </ul>
