@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio-of-rachel-brain-on-react/static/css/main.19d6421a.chunk.css",
+    "main.js": "/portfolio-of-rachel-brain-on-react/static/js/main.1039c2a8.chunk.js",
+    "main.js.map": "/portfolio-of-rachel-brain-on-react/static/js/main.1039c2a8.chunk.js.map",
+    "runtime-main.js": "/portfolio-of-rachel-brain-on-react/static/js/runtime-main.d23bd32d.js",
+    "runtime-main.js.map": "/portfolio-of-rachel-brain-on-react/static/js/runtime-main.d23bd32d.js.map",
+    "static/css/2.c1256375.chunk.css": "/portfolio-of-rachel-brain-on-react/static/css/2.c1256375.chunk.css",
+    "static/js/2.06c0f6af.chunk.js": "/portfolio-of-rachel-brain-on-react/static/js/2.06c0f6af.chunk.js",
+    "static/js/2.06c0f6af.chunk.js.map": "/portfolio-of-rachel-brain-on-react/static/js/2.06c0f6af.chunk.js.map",
+    "index.html": "/portfolio-of-rachel-brain-on-react/index.html",
+    "static/css/2.c1256375.chunk.css.map": "/portfolio-of-rachel-brain-on-react/static/css/2.c1256375.chunk.css.map",
+    "static/css/main.19d6421a.chunk.css.map": "/portfolio-of-rachel-brain-on-react/static/css/main.19d6421a.chunk.css.map",
+    "static/js/2.06c0f6af.chunk.js.LICENSE.txt": "/portfolio-of-rachel-brain-on-react/static/js/2.06c0f6af.chunk.js.LICENSE.txt",
+    "static/media/arty-pants-project-2021.07.54c75a51.JPG": "/portfolio-of-rachel-brain-on-react/static/media/arty-pants-project-2021.07.54c75a51.JPG",
+    "static/media/face_co-2021.09.890c0fe4.png": "/portfolio-of-rachel-brain-on-react/static/media/face_co-2021.09.890c0fe4.png",
+    "static/media/gotta-keep-em-generated-2021.06.beeb5044.JPG": "/portfolio-of-rachel-brain-on-react/static/media/gotta-keep-em-generated-2021.06.beeb5044.JPG",
+    "static/media/note-taker-app-2021.08.ba085670.JPG": "/portfolio-of-rachel-brain-on-react/static/media/note-taker-app-2021.08.ba085670.JPG",
+    "static/media/rachel_brain-2021.09.e36b5645.pdf": "/portfolio-of-rachel-brain-on-react/static/media/rachel_brain-2021.09.e36b5645.pdf",
+    "static/media/weather-dashboard-2021.07.c4b8a116.JPG": "/portfolio-of-rachel-brain-on-react/static/media/weather-dashboard-2021.07.c4b8a116.JPG",
+    "static/media/wizard-wipeout-project-2021.09.475cd69c.JPG": "/portfolio-of-rachel-brain-on-react/static/media/wizard-wipeout-project-2021.09.475cd69c.JPG",
+    "static/media/workday-scheduler-2021.06.f01f0e9c.JPG": "/portfolio-of-rachel-brain-on-react/static/media/workday-scheduler-2021.06.f01f0e9c.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d23bd32d.js",
+    "static/css/2.c1256375.chunk.css",
+    "static/js/2.06c0f6af.chunk.js",
+    "static/css/main.19d6421a.chunk.css",
+    "static/js/main.1039c2a8.chunk.js"
+  ]
+}
