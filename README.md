@@ -1,5 +1,5 @@
 # Portfolio of Rachel Brain on REACT
-My portfolio built with REACT and BOOTSTRAP showcasing my recent Coding work.
+My portfolio built with REACT and REACT-BOOTSTRAP showcasing my recent Coding work.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -8,7 +8,7 @@ My portfolio built with REACT and BOOTSTRAP showcasing my recent Coding work.
 
 ```
 AS A upcoming web developer
-I WANT to showcase my portfolio of deployed work samples using REACT
+I WANT to showcase my portfolio of deployed work samples using REACT (the latest technology!)
 SO THAT I can present the best examples of my work so a potential employer can assess whether I am a good candidate for a position they have available
 ```
 
@@ -16,7 +16,7 @@ SO THAT I can present the best examples of my work so a potential employer can a
 My motivation for undertaking this project was to update my portfolio with recent web development work using REACT.  It is to use as an adjunct to my resume, giving me the ability to present the best examples of my coding work.
 
 ## Installation
-Open the (index.html) page in your prefered browser to see the finished webpage which is responsive so can be viewed on a number of different screen sizes.  Or, open the URL of the deployed application at: https://rachel-brain.github.io/rachel-brain-portfolio/ 
+Open the URL of the deployed application at: https://rachel-brain.github.io/portfolio-of-rachel-brain-on-react 
 
 ## Usage
 Click on the images to be directed to examples of my deployed work & on the github links to be transferred to my repositories.
@@ -42,7 +42,7 @@ Click on the images to be directed to examples of my deployed work & on the gith
 ### Title: Note-Taker App
 * Alternative title: handy-note-taker
 
-## Screenshot
+## Screenshot of home page
 ![The home page of Rachel Brain's portfolio is shown.](./src/components/images/screenshot-of-home-page-2021.10.JPG).
 
 ## URLs
