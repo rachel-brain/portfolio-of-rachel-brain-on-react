@@ -16,7 +16,7 @@ SO THAT I can present the best examples of my work so a potential employer can a
 My motivation for undertaking this project was to update my portfolio with recent web development work using REACT.  It is to use as an adjunct to my resume, giving me the ability to present the best examples of my coding work.
 
 ## Installation
-Open the URL of the deployed application at: https://rachel-brain.github.io/portfolio-of-rachel-brain-on-react 
+Open the URL of the deployed application at: https://rachel-brain.github.io/portfolio-of-rachel-brain-on-react/
 
 ## Usage
 Click on the images to be directed to examples of my deployed work & on the github links to be transferred to my repositories.
@@ -45,9 +45,11 @@ Click on the images to be directed to examples of my deployed work & on the gith
 ## Screenshot of home page
 ![The home page of Rachel Brain's portfolio is shown.](./src/components/images/screenshot-of-home-page-2021.10.JPG).
 
-## URLs
-* The URL of the deployed application:  
-* The URL of the GitHub repository:     https://github.com/rachel-brain/portfolio-of-rachel-brain-on-react
+## URL of deployed application on GitHub Pages
+https://rachel-brain.github.io/portfolio-of-rachel-brain-on-react/
+
+## URL of GitHub repository
+https://github.com/rachel-brain/portfolio-of-rachel-brain-on-react
 
 * Links to all URLs for the featured projects' deployed websites and GitHub repositories are included in the portfolio.
 
